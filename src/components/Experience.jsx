@@ -4,6 +4,11 @@ import { PiBuildingOfficeBold } from "react-icons/pi";
 const Experience = () => {
   return (
     <>
+      <style>{`
+        .exp-item:has(.exp-card:hover) .exp-circle {
+          transform: scale(1.1);
+        }
+      `}</style>
       <section className="py-24 px-6 bg-slate-950/50" id="experience">
         <div className="max-w-4xl mx-auto">
           <h2 class="text-4xl md:text-5xl font-bold text-white leading-tight text-center pb-16">
@@ -11,13 +16,13 @@ const Experience = () => {
           </h2>
 
           <div className="space-y-8 relative before:absolute before:inset-0 before:ml-5 md:before:mx-auto before:-translate-x-px md:before:translate-x-0 before:h-full before:w-0.5 before:bg-linear-to-b before:from-transparent before:via-[#8c2bee]/30 before:to-transparent">
-            <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
-              <div className="flex items-center justify-center w-10 h-10 rounded-full border border-[#8c2bee] bg-[#0a0510] text-[#8c2bee] absolute left-0 md:left-1/2 md:-translate-x-1/2 z-10  backdrop-blur-md p-6 group-hover:scale-110 transition-transform">
+            <div className="exp-item relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse">
+              <div className="exp-circle flex items-center justify-center w-10 h-10 rounded-full border border-[#8c2bee] bg-[#0a0510] text-[#8c2bee] absolute left-0 md:left-1/2 md:-translate-x-1/2 z-10 backdrop-blur-md p-6 transition-transform">
                 <span className="material-symbols-outlined text-sm">
                     <PiBuildingOfficeBold />
                 </span>
               </div>
-              <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-[rgba(25,16,34,0.7)] backdrop-blur-md border-[rgba(140,43,238,0.2)] p-6 rounded-2xl border hover:border-[#8c2bee]/40 transition-all">
+              <div className="exp-card w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-[rgba(25,16,34,0.7)] backdrop-blur-md border-[rgba(140,43,238,0.2)] p-6 rounded-2xl border hover:border-[#8c2bee]/40 transition-all">
                 <div className="flex items-center justify-between mb-2">
                   <h3 className="font-bold text-xl text-[#8c2bee]">Intern</h3>
                   <time className="text-xs text-slate-500 font-mono">
@@ -36,13 +41,13 @@ const Experience = () => {
               </div>
             </div>
 
-            <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
-              <div className="flex items-center justify-center w-10 h-10 rounded-full border border-[#8c2bee] bg-[#0a0510] text-[#8c2bee] absolute left-0 md:left-1/2 md:-translate-x-1/2 z-10  backdrop-blur-md p-6 group-hover:scale-110 transition-transform">
+            <div className="exp-item relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse">
+              <div className="exp-circle flex items-center justify-center w-10 h-10 rounded-full border border-[#8c2bee] bg-[#0a0510] text-[#8c2bee] absolute left-0 md:left-1/2 md:-translate-x-1/2 z-10 backdrop-blur-md p-6 transition-transform">
                 <span className="material-symbols-outlined text-sm">
                     <PiBuildingOfficeBold />
                 </span>
               </div>
-              <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-[rgba(25,16,34,0.7)] backdrop-blur-md border-[rgba(140,43,238,0.2)] p-6 rounded-2xl border hover:border-[#8c2bee]/40 transition-all">
+              <div className="exp-card w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-[rgba(25,16,34,0.7)] backdrop-blur-md border-[rgba(140,43,238,0.2)] p-6 rounded-2xl border hover:border-[#8c2bee]/40 transition-all">
                 <div className="flex items-center justify-between mb-2">
                   <h3 className="font-bold text-xl text-[#8c2bee]">UI/UX Designer</h3>
                   <time className="text-xs text-slate-500 font-mono">
@@ -59,13 +64,13 @@ const Experience = () => {
               </div>
             </div>
 
-            <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
-              <div className="flex items-center justify-center w-10 h-10 rounded-full border border-[#8c2bee] bg-[#0a0510] text-[#8c2bee] absolute left-0 md:left-1/2 md:-translate-x-1/2 z-10  backdrop-blur-md p-6 group-hover:scale-110 transition-transform">
+            <div className="exp-item relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse">
+              <div className="exp-circle flex items-center justify-center w-10 h-10 rounded-full border border-[#8c2bee] bg-[#0a0510] text-[#8c2bee] absolute left-0 md:left-1/2 md:-translate-x-1/2 z-10 backdrop-blur-md p-6 transition-transform">
                 <span className="material-symbols-outlined text-sm">
                     <PiBuildingOfficeBold />
                 </span>
               </div>
-              <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-[rgba(25,16,34,0.7)] backdrop-blur-md border-[rgba(140,43,238,0.2)] p-6 rounded-2xl border hover:border-[#8c2bee]/40 transition-all">
+              <div className="exp-card w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-[rgba(25,16,34,0.7)] backdrop-blur-md border-[rgba(140,43,238,0.2)] p-6 rounded-2xl border hover:border-[#8c2bee]/40 transition-all">
                 <div className="flex items-center justify-between mb-2">
                   <h3 className="font-bold text-xl text-[#8c2bee]">Designer</h3>
                   <time className="text-xs text-slate-500 font-mono">
