@@ -4,6 +4,7 @@ import About from "../components/About";
 import Experience from "../components/Experience";
 import Projects from "../components/Projects";
 import TechStack from "../components/TechStack";
+import Testimonials from "../components/Testimonials";
 import AIAssistant from "../components/AIAssistant";
 import Contact from "../components/Contact";
 import { motion } from "framer-motion";
@@ -58,6 +59,10 @@ export default function Home() {
             <ScrollSection>
                 <Projects />
             </ScrollSection>
+
+            {/* <ScrollSection>
+                <Testimonials />
+            </ScrollSection> */}
 
             <ScrollSection>
                 <Contact />
