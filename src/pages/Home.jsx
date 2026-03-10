@@ -52,11 +52,11 @@ export default function Home() {
             </ScrollSection>
 
             <ScrollSection>
-                <Projects />
+                <TechStack />
             </ScrollSection>
 
             <ScrollSection>
-                <TechStack />
+                <Projects />
             </ScrollSection>
 
             <ScrollSection>
