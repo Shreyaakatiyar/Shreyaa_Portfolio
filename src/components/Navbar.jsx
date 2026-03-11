@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../assets/logo.svg";  
+import Resume from "../assets/Shreyaa_Resume.pdf"
 
 const Navbar = () => {
   return (
@@ -19,9 +20,11 @@ const Navbar = () => {
             <li><a href="#contact" className="hover:text-purple-400 transition">Contact Me</a></li>
           </ul>
 
-          <button className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded-full font-medium transition cursor-pointer">
-            Resume
-          </button>
+          <a href={Resume} target="_blank" rel="noopener noreferrer">
+            <button className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded-full font-medium transition cursor-pointer">
+                Resume
+            </button>
+          </a>
         </div>
       </div>
     </nav>

@@ -11,7 +11,7 @@ const Experience = () => {
       `}</style>
       <section className="py-24 px-6 bg-slate-950/50" id="experience">
         <div className="max-w-4xl mx-auto">
-          <h2 class="text-4xl md:text-5xl font-bold text-white leading-tight text-center pb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-white leading-tight text-center pb-16">
             Work Experience
           </h2>
 
