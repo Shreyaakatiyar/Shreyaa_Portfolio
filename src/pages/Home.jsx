@@ -8,6 +8,7 @@ import Testimonials from "../components/Testimonials";
 import AIAssistant from "../components/AIAssistant";
 import Contact from "../components/Contact";
 import { motion } from "framer-motion";
+import Footer from "../components/Footer"
 
 const ScrollSection = ({ children }) => {
     return (
@@ -67,6 +68,8 @@ export default function Home() {
             <ScrollSection>
                 <Contact />
             </ScrollSection>
+
+            <Footer/>
 
             <ScrollSection>
                 <AIAssistant />
