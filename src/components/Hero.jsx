@@ -4,7 +4,7 @@ import { MdOutlineFileDownload } from "react-icons/md";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden" id='hero'>
         <div className='absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(140,43,238,0.15)_0%,transparent_50%)]'></div>
         <div class="absolute top-1/4 left-1/4 w-64 h-64 bg-primary/20 rounded-full blur-[120px]"></div>
         <div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-primary/10 rounded-full blur-[150px]"></div>
