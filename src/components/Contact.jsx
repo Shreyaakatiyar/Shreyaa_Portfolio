@@ -28,10 +28,10 @@ const Contact = () => {
 
       emailjs
         .sendForm(
-          "service_gricvyg",
-          "template_xkhf9sq",
+          import.meta.env.VITE_EMAILJS_SERVICE_ID,
+          import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
           form.current,
-          "OL4a9k7bGZmL_7gy-",
+          import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
         )
         .then(
           () => {
@@ -75,7 +75,7 @@ const Contact = () => {
               </div>
 
               <div className="flex items-center gap-3 sm:gap-4 group cursor-pointer">
-                <div className="flex-shrink-0 size-10 sm:size-12 rounded-full bg-[rgba(25,16,34,0.7)] backdrop-blur-md border border-[rgba(140,43,238,0.2)] p-5 sm:p-6 flex items-center justify-center group-hover:bg-[#8c2bee] transition-colors">
+                <div className="shrink-0 size-10 sm:size-12 rounded-full bg-[rgba(25,16,34,0.7)] backdrop-blur-md border border-[rgba(140,43,238,0.2)] p-5 sm:p-6 flex items-center justify-center group-hover:bg-[#8c2bee] transition-colors">
                   <span>
                     <FaLinkedinIn style={{ fontSize: "18px" }} className="sm:text-[20px]" />
                   </span>
@@ -93,7 +93,7 @@ const Contact = () => {
               </div>
 
               <div className="flex items-center gap-3 sm:gap-4 group cursor-pointer">
-                <div className="flex-shrink-0 size-10 sm:size-12 rounded-full bg-[rgba(25,16,34,0.7)] backdrop-blur-md border border-[rgba(140,43,238,0.2)] p-5 sm:p-6 flex items-center justify-center group-hover:bg-[#8c2bee] transition-colors">
+                <div className="shrink-0 size-10 sm:size-12 rounded-full bg-[rgba(25,16,34,0.7)] backdrop-blur-md border border-[rgba(140,43,238,0.2)] p-5 sm:p-6 flex items-center justify-center group-hover:bg-[#8c2bee] transition-colors">
                   <span>
                     <FaGithub style={{ fontSize: "18px" }} className="sm:text-[22px]" />
                   </span>
