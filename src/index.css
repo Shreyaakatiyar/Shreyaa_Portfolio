@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 120px;
+}
+
+a.active-link {
+  @apply text-purple-400 font-semibold;
+}

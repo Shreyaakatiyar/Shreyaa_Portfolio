@@ -70,7 +70,7 @@ export default function Home() {
             </ScrollSection>
 
             <Footer/>
-            <AIAssistant />
+            {/* <AIAssistant /> */}
         </motion.div>
     );
 }
