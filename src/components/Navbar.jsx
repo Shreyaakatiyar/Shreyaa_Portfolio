@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Logo from "../assets/logo.svg";  
+import Logo from "../assets/Logo.svg";  
 import Resume from "../assets/Shreyaa_Resume.pdf"
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
