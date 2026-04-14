@@ -1,5 +1,8 @@
 import React from 'react'
 import { IoMdLink, IoMdCode} from "react-icons/io";
+import DevIntelImg from "../assets/DevIntel.png";
+import CareerTrackImg from "../assets/CareerTrack.png";
+import SoftHireImg from "../assets/SoftHire.png";
 
 const Projects = () => {
   return (
@@ -10,7 +13,7 @@ const Projects = () => {
 
                 <div className='bg-[rgba(25,16,34,0.7)] backdrop-blur-md border border-[rgba(140,43,238,0.2)] p-6 group overflow-hidden rounded-3xl hover:border-[#8c2bee]/30 transition-all flex flex-col'>
                     <div className='aspect-video overflow-hidden relative'>
-                        <img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="DevIntel" src="src/assets/DevIntel.png"/>
+                        <img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="DevIntel" src={DevIntelImg}/>
                         <div className="absolute inset-0 bg-linear-to-t from-background-[#0a0510]/90 to-transparent"></div>
                         <div className='absolute bottom-4 left-6'>
                             <div className='flex gap-2'>
@@ -37,7 +40,7 @@ const Projects = () => {
 
                 <div className='bg-[rgba(25,16,34,0.7)] backdrop-blur-md border border-[rgba(140,43,238,0.2)] p-6 group overflow-hidden rounded-3xl hover:border-[#8c2bee]/30 transition-all flex flex-col'>
                     <div className='aspect-video overflow-hidden relative'>
-                        <img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="CareerTrack" src="src/assets/CareerTrack.png"/>
+                        <img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="CareerTrack" src={CareerTrackImg}/>
                         <div className="absolute inset-0 bg-linear-to-t from-background-[#0a0510]/90 to-transparent"></div>
                         <div className='absolute bottom-4 left-6'>
                             <div className='flex gap-2'>
@@ -64,7 +67,7 @@ const Projects = () => {
 
                 <div className='bg-[rgba(25,16,34,0.7)] backdrop-blur-md border border-[rgba(140,43,238,0.2)] p-6 group overflow-hidden rounded-3xl hover:border-[#8c2bee]/30 transition-all flex flex-col'>
                     <div className='aspect-video overflow-hidden relative'>
-                        <img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="SoftHire" src="src/assets/SoftHire.png"/>
+                        <img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="SoftHire" src={SoftHireImg}/>
                         <div className="absolute inset-0 bg-linear-to-t from-background-[#0a0510]/90 to-transparent"></div>
                         <div className='absolute bottom-4 left-6'>
                             <div className='flex gap-2'>
