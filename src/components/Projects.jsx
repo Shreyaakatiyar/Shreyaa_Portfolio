@@ -55,7 +55,7 @@ const Projects = () => {
                         <h3 className="text-2xl font-bold mb-3 group-hover:text-[#8c2bee] transition-colors">CareerTrack</h3>
                         <p className="text-slate-400 mb-6 flex-1">CareerTrack is a job and internship tracking application designed to help users organize applications, monitor progress, and stay on top of opportunities. It includes authentication, dashboard analytics, and real-time data integration using Firebase.</p>
                         <div className='flex gap-4'>
-                            <a href="#" className='flex items-center gap-2 text-sm font-bold text-[#8c2bee] hover:text-white transition-colors'>
+                            <a href="https://career-track-three.vercel.app/" target='_blank' rel="noopener noreferrer" className='flex items-center gap-2 text-sm font-bold text-[#8c2bee] hover:text-white transition-colors'>
                                 <span className="text-lg"><IoMdLink /></span> Live Demo
                             </a>
                             <a href="https://github.com/Shreyaakatiyar/CareerTrack" target='_blank' rel='noopener noreferrer' className='flex items-center gap-2 text-sm font-bold text-slate-400 hover:text-white transition-colors'>
